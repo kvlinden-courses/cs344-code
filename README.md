@@ -9,7 +9,7 @@ For details, see the
 
 To use this code, do the following:
 1. Create your own CS 344 code repo on GitHub:
-`https://github.com/GITHUB_ID/cs336`
+`https://github.com/GITHUB_ID/cs344`
 2. Clone this quick-start repo to your local machine.
 3. Add a second git remote to this new local copy pointing to your new
 GitHub repo and then commit/push this code to that repo.
