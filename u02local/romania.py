@@ -1,10 +1,11 @@
-'''
-This code uses the uninformed search algorithms from AIMA-Python to solve search problems in the Romanian domain.
+"""
+This code uses the uninformed search algorithms from AIMA-Python to solve
+search problems in the Romanian domain.
 
 @author: kvlinden
 @version Dec 17, 2012
 @version Spring, 2018 Ported to Python 3...
-'''
+"""
 
 from numpy import math
 
@@ -51,17 +52,24 @@ romania.locations = dict(
     vaslui=(509, 444), 
     zerind=(108, 531))
 
+
 def compare_searchers(problem, searchers):
    def apply_search(problem, searcher):
        result = searcher(problem)
        return [name(searcher), str(result.solution()), str(result.path_cost)]
    print_table([apply_search(problem, s) for s in searchers])
 
-algorithms = [
-    depth_first_graph_search,
-    breadth_first_tree_search,
-    uniform_cost_search,
-    iterative_deepening_search
-]
-compare_searchers(GraphProblem('arad', 'bucharest', romania), algorithms)
 
+if __name__ == '__main__':
+
+    algorithms = [
+        depth_first_graph_search,
+        breadth_first_tree_search,
+        uniform_cost_search,
+        iterative_deepening_search
+    ]
+
+    compare_searchers(
+        GraphProblem('arad', 'bucharest', romania),
+        algorithms
+    )
