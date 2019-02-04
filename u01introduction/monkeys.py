@@ -1,6 +1,9 @@
 """
 This code is (mostly) copied from the GPS code by dhconnelly,
-https://github.com/dhconnelly/paip-python.
+    https://github.com/dhconnelly/paip-python.
+
+For the monkey/banana problem, see:
+    https://en.wikipedia.org/wiki/Monkey_and_banana_problem
 
 @author: kvlinden
 @version 25jan2013

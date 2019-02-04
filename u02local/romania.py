@@ -66,7 +66,8 @@ if __name__ == '__main__':
         depth_first_graph_search,
         breadth_first_tree_search,
         uniform_cost_search,
-        iterative_deepening_search
+        iterative_deepening_search,
+        astar_search
     ]
 
     compare_searchers(
