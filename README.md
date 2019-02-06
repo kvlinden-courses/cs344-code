@@ -21,6 +21,8 @@ machine.
 3. Build/Use a Python virtual environment for this codebase, loading the
 required packages one at a time as needed or using pip-install on the list of
 packages given in `packages.txt`.
+4. Configure your Python environment to load packages from the root of the
+`cs344-code` directory structure.
 
 You will generally work with with your own `cs344` repo, using copies of
 code from our `cs344-code` as needed. Check our repo periodically
