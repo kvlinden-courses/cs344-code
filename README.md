@@ -18,7 +18,9 @@ To use this code, do the following:
 2. Create your own CS 344 code repo on GitHub:
 `https://github.com/`***GITHUB_ID***`/cs344` and clone it to your local
 machine.
-3. Build/Use a Python virtual environment using `packages.txt`.
+3. Build/Use a Python virtual environment for this codebase, loading the
+required packages one at a time as needed or using pip-install on the list of
+packages given in `packages.txt`.
 
 You will generally work with with your own `cs344` repo, using copies of
 code from our `cs344-code` as needed. Check our repo periodically
