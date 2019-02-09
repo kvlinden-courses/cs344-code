@@ -5,7 +5,7 @@ This is an AIMA-Python-based solution for the 8-puzzle.
 @version 31jan2013
 """
 
-from aima.search import Problem, astar_search, Node, breadth_first_tree_search, \
+from tools.aima.search import Problem, astar_search, Node, breadth_first_tree_search, \
     iterative_deepening_search
 import logging
 import time
