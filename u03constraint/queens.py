@@ -1,10 +1,10 @@
-'''
+"""
 Run the various CSP solvers on the nQueens problem.
 These calls are mostly copied/adapted from AIMA Python.
 
 @author: kvlinden
 @version 14feb2013
-'''
+"""
 
 from tools.aima.csp import backtracking_search, NQueensCSP, min_conflicts, mrv, \
     forward_checking, AC3
