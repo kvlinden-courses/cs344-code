@@ -6,7 +6,7 @@ to support a complete-state, value-maximization formulation.
 @author: kvlinden
 @version 19dec2012
 """
-from tools.aima.search import Problem, hill_climbing, simulated_annealing, exp_schedule
+from search import Problem, hill_climbing, simulated_annealing, exp_schedule
 import itertools
 import math
 

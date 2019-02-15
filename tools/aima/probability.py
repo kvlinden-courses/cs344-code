@@ -1,13 +1,13 @@
 """Probability models. (Chapter 13-15)
 """
 
-from tools.aima.utils import (
+from utils import (
     product, argmax, element_wise_product, matrix_multiplication,
     vector_to_diagonal, vector_add, scalar_vector_product, inverse_matrix,
     weighted_sample_with_replacement, isclose, probability, normalize
 )
-from tools.aima.logic import extend
-from tools.aima.agents import Agent
+from logic import extend
+from agents import Agent
 
 import random
 from collections import defaultdict

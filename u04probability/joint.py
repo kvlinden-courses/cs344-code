@@ -7,7 +7,7 @@ It is based on the code from AIMA probability.py.
 @version Jan 1, 2013
 '''
 
-from tools.aima.probability import JointProbDist, enumerate_joint_ask
+from probability import JointProbDist, enumerate_joint_ask
 
 # The Joint Probability Distribution Fig. 13.3 (from AIMA Python)
 P = JointProbDist(['Toothache', 'Cavity', 'Catch'])

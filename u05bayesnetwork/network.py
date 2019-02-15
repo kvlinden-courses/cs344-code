@@ -6,7 +6,7 @@ It's taken from the AIMA Python code.
 @version Jan 2, 2013
 '''
 
-from tools.aima.probability import BayesNet, enumeration_ask, elimination_ask
+from probability import BayesNet, enumeration_ask, elimination_ask
 
 # Utility variables
 T, F = True, False

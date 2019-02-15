@@ -6,9 +6,9 @@ These calls are mostly copied/adapted from AIMA Python.
 @version 14feb2013
 """
 
-from tools.aima.csp import backtracking_search, NQueensCSP, min_conflicts, mrv, \
+from csp import backtracking_search, NQueensCSP, min_conflicts, mrv, \
     forward_checking, AC3
-from tools.aima.search import depth_first_graph_search
+from search import depth_first_graph_search
 import logging
 
 # 1. Set up the problem.

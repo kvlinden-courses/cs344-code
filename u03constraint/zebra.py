@@ -9,8 +9,8 @@ Zebra puzzle taken from AIMA's csp.py. See:
 """
 import time
 
-from tools.aima.csp import Zebra, min_conflicts, backtracking_search, AC3
-from tools.aima.search import depth_first_graph_search
+from csp import Zebra, min_conflicts, backtracking_search, AC3
+from search import depth_first_graph_search
 
 def print_solution(result):
     """A CSP solution printer copied from csp.py."""

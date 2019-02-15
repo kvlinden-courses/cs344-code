@@ -5,9 +5,9 @@ These calls are mostly copied/adapted from AIMA Python.
 @author: kvlinden
 @version 14feb2013
 """
-from tools.aima.csp import Sudoku, easy1, AC3, harder1, backtracking_search, mrv, \
+from csp import Sudoku, easy1, AC3, harder1, backtracking_search, mrv, \
     forward_checking, min_conflicts
-from tools.aima.search import depth_first_graph_search
+from search import depth_first_graph_search
 
 # 1. Set up the puzzle.
 puzzle = Sudoku('483921657967345821251876493548132976729564138136798245372689514814253769695417382') # solved (Figure 6.4.b)
