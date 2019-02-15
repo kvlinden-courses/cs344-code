@@ -25,7 +25,6 @@ depth_first_graph_search(puzzle)
 #min_conflicts(puzzle)
 
 # 3. Print the results.  
-print
 if puzzle.goal_test(puzzle.infer_assignment()):
     print('Solution:')
     puzzle.display(puzzle.infer_assignment())

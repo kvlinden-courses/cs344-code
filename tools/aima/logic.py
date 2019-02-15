@@ -31,12 +31,12 @@ And a few other functions:
     diff, simp       Symbolic differentiation and simplification
 """
 
-from utils import (
+from tools.aima.utils import (
     removeall, unique, first, argmax, probability,
     isnumber, issequence, Expr, expr, subexpressions
 )
-from agents import Agent, Glitter, Bump, Stench, Breeze, Scream
-from search import astar_search, PlanRoute
+from tools.aima.agents import Agent, Glitter, Bump, Stench, Breeze, Scream
+from tools.aima.search import astar_search, PlanRoute
 
 import itertools
 import random
