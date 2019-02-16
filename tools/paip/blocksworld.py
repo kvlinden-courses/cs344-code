@@ -1,4 +1,4 @@
-from tools.paip.gps import gps
+from gps import gps
 
 problem = {
     "start1": ["space on a", "a on b", "b on c", "c on table", "space on table"],

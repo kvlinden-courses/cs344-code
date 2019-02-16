@@ -1,7 +1,7 @@
 """
     This module implements the simple blocks world using PAIP GPS.
 """
-from tools.paip.gps import gps
+from gps import gps
 
 # Formulate the problem states and actions.
 problem = {

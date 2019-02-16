@@ -1,4 +1,4 @@
-from tools.paip.gps import gps
+from gps import gps
 
 problem = {
     "start": ["at door", "on floor", "has ball", "hungry", "chair at door"],

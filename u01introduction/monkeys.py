@@ -9,7 +9,7 @@ For the monkey/banana problem, see:
 @version 25jan2013
 """
 
-from tools.paip.gps import gps
+from gps import gps
 
 
 # Formulate the problem states and actions.
