@@ -6,7 +6,7 @@ It's taken from the AIMA Python code.
 @version Jan 2, 2013
 '''
 
-from probability import BayesNet, enumeration_ask, elimination_ask
+from probability import BayesNet, enumeration_ask, elimination_ask, gibbs_ask
 
 # Utility variables
 T, F = True, False
@@ -20,10 +20,10 @@ burglary = BayesNet([
     ('MaryCalls', 'Alarm', {T: 0.70, F: 0.01})
     ])
 
-# Compute P(Burglary | John and Mary both call) using the enumeration-ask and elimination-ask algorithms
-# See the explanation of the algorithms in Section 14.4.
+# Compute P(Burglary | John and Mary both call).
 print(enumeration_ask('Burglary', dict(JohnCalls=T, MaryCalls=T), burglary).show_approx())
+# elimination_ask() is a dynamic programming version of enumeration_ask().
 print(elimination_ask('Burglary', dict(JohnCalls=T, MaryCalls=T), burglary).show_approx())
-
-
-
+# gibbs_ask() is an approximation algorithm helps Bayesian Networks scale up.
+print(gibbs_ask('Burglary', dict(JohnCalls=T, MaryCalls=T), burglary).show_approx())
+# See the explanation of the algorithms in AIMA Section 14.4.
