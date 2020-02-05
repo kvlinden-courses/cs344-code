@@ -3,7 +3,7 @@
 This is sample code for
 [CS 344 at Calvin College](https://cs.calvin.edu/courses/cs/344/kvlinden).
 For details, see the
-[course schedule](https://cs.calvin.edu/courses/cs/336/kvlinden/schedule.html).
+[course schedule](https://cs.calvin.edu/courses/cs/344/kvlinden/schedule.html).
 
 The tools directory includes the
 [Python 3 AIMA repo](https://github.com/aimacode/aima-python)
