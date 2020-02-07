@@ -3,7 +3,7 @@
 This is sample code for
 [CS 344 at Calvin College](https://cs.calvin.edu/courses/cs/344/kvlinden).
 For details, see the
-[course schedule](https://cs.calvin.edu/courses/cs/336/kvlinden/schedule.html).
+[course schedule](https://cs.calvin.edu/courses/cs/344/kvlinden/schedule.html).
 
 The tools directory includes the
 [Python 3 AIMA repo](https://github.com/aimacode/aima-python)
@@ -22,7 +22,7 @@ machine.
 required packages one at a time as needed or using pip-install on the list of
 packages given in `packages.txt`.
 4. Configure your Python environment to load packages from the root of the
-`cs344-code` directory structure.
+`cs344-code` directory structure (e.g., `tools/aima` and `tools/paip`).
 
 You will generally work with with your own `cs344` repo, using copies of
 code from our `cs344-code` as needed. Check our repo periodically
