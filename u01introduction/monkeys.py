@@ -10,7 +10,7 @@ For the monkey/banana problem, see:
 """
 
 from gps import gps
-
+import logging
 
 # Formulate the problem states and actions.
 problem = {
@@ -59,6 +59,9 @@ problem = {
 }
 
 if __name__ == '__main__':
+
+    # This turns on detailed logging for the GPS "thought" process.
+    # logging.basicConfig(level=logging.DEBUG)
 
     # Use GPS to solve the problem formulated above.
     actionSequence = gps(
