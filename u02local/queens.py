@@ -85,28 +85,27 @@ if __name__ == '__main__':
 
     # Set the board size.
     n = 8
+    print('N:\t\t' + str(n))
 
     # Initialize the board with all queens in the first row.
     board = [0] * n
-    print('Start:    ' + str(board))
+    print('Start:\t' + str(board))
 
     # Initialize the NQueens problem
     p = NQueens(n, board)
-    print('Value:    ' + str(p.value(board)))
+    print('Value:\t' + str(p.value(board)))
 
     # Solve the problem using hill climbing.
     hill_solution = hill_climbing(p)
-    print('Hill-climbing:')
-    print('\tSolution: ' + str(hill_solution))
-    print('\tValue:    ' + str(p.value(hill_solution)))
-    print('\tGoal?     ' + str(p.goal_test(hill_solution)))
+    print('\nHill-climbing:')
+    print('\tSolution:\t' + str(hill_solution))
+    print('\tValue:\t\t' + str(p.value(hill_solution)))
+    print('\tGoal?\t\t' + str(p.goal_test(hill_solution)))
 
     # Solve the problem using simulated annealing.
-    annealing_solution = simulated_annealing(
-        p,
-        exp_schedule(k=20, lam=0.005, limit=10000)
-    )
-    print('Simulated annealing:')
-    print('\tSolution: ' + str(annealing_solution))
-    print('\tValue:    ' + str(p.value(annealing_solution)))
-    print('\tGoal?     ' + str(p.goal_test(annealing_solution)))
+    annealing_solution = \
+        simulated_annealing(p, exp_schedule(k=20, lam=0.005, limit=10000))
+    print('\nSimulated annealing:')
+    print('\tSolution:\t' + str(annealing_solution))
+    print('\tValue:\t\t' + str(p.value(annealing_solution)))
+    print('\tGoal?\t\t' + str(p.goal_test(annealing_solution)))
