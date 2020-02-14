@@ -32,7 +32,7 @@ if type(solution) is bool:
     print(problem.curr_domains)
 
 # Handle other solutions next.
-elif solution != None and problem.goal_test(solution):
+elif solution is not None and problem.goal_test(solution):
     print('Solution:')
     print(solution)
 #    problem.display(problem.infer_assignment())

@@ -12,6 +12,7 @@ import time
 from csp import Zebra, min_conflicts, backtracking_search, AC3
 from search import depth_first_graph_search
 
+
 def print_solution(result):
     """A CSP solution printer copied from csp.py."""
     for h in range(1, 6):
